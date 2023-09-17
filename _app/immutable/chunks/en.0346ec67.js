@@ -1,0 +1,1 @@
+const e="Choose the address to receive coins with",a="Okay",t="Create a new wallet",o="1 year",s="Spendable:",c={receive:e,ok:a,create:t,year:o,spendable:s};export{t as create,c as default,a as ok,e as receive,s as spendable,o as year};
