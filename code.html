@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width" />
 
 		<meta charset="utf-8" />
-		<meta name="description" content="Unspent Chi" />
+		<meta name="description" content="Χ (formerly Unspent) - The Bitcoin Cash App for Perpetuity" />
 
 		<!-- Open Graph data -->
 		<meta property="og:title" content="Unspent Chi" />
 		<meta property="og:url" content="https://unspent.cash/" />
-		<!--meta property="og:image" content="https://unspent.cash/images/header.png" /-->
+		<meta property="og:image" content="https://unspent.cash/header.svg" />
 		<meta
 			property="og:description"
 			content="Monthly fractional payouts, running natively & directly on Bitcoin Cash (BCH)."
@@ -39,11 +39,12 @@
 		<meta property="og:locale:alternate" content="ca" />
 		<meta property="og:locale:alternate" content="se" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.858580f5.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.256ca2a0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.76bc67b1.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.e51923d9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.146b74ed.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.1748f870.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.c4c4d8c2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.33d84c55.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.f675546c.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.c735ddc8.js">
 	</head>
@@ -51,7 +52,7 @@
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_19b0ykx = {
+					__sveltekit_gbznsi = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -59,8 +60,8 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.858580f5.js"),
-						import("./_app/immutable/entry/app.c4c4d8c2.js")
+						import("./_app/immutable/entry/start.256ca2a0.js"),
+						import("./_app/immutable/entry/app.f675546c.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
