@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
-		<meta name="viewport" content="width=device-width" />
 
-		<meta charset="utf-8" />
-		<meta name="description" content="Create a contract to distribute about one percent of the balance monthly in perpetuity." />
-    <title>Unspent: Your Bitcoin Cash Perpetuity App</title>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.png" />
+  <meta name="viewport" content="width=device-width" />
 
-		<!-- Open Graph data -->
-		<meta property="og:title" content="Unspent Cash" />
-		<meta property="og:url" content="https://unspent.cash/" />
-		<meta property="og:image" content="https://unspent.cash/header.png" />
-		<meta
-			property="og:description"
-			content="Monthly fractional payouts, running natively & directly on Bitcoin Cash (BCH)."
-		/>
-		<meta property="og:type" content="website" />
-		<!--  Progressive Web App Service Worker -->
-		<link
-			rel="manifest"
-			href="./site.webmanifest"
-			type="application/manifest+json"
-		/>
-		<script defer src="./pwa.js"></script>
+  <meta charset="utf-8" />
+  <meta name="description"
+    content="Create a contract to distribute about one percent of the balance monthly in perpetuity." />
+  <title>Unspent: Your Bitcoin Cash (BCH) Perpetuity App</title>
 
-		<meta name="msapplication-TileColor" content="#ffb200" />
-		<meta name="theme-color" content="#ffb200" />
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Unspent Cash - Irrevocable perpetuities on Bitcoin Cash (BCH)" />
+  <meta property="og:url" content="https://unspent.cash/" />
+  <meta property="og:image" content="https://unspent.cash/header.png" />
+  <meta property="og:description"
+    content="Monthly fractional payouts, running natively & directly on Bitcoin Cash (BCH).  Users can create and announce a contract address to lock Bitcoin Cash for fractional monthly payments to a predefined receipt address." />
+  <meta property="og:type" content="website" />
+  <!--  Progressive Web App Service Worker -->
+  <link rel="manifest" href="./site.webmanifest" type="application/manifest+json" />
+  <script defer src="./pwa.js"></script>
+
+  <meta name="msapplication-TileColor" content="#ffb200" />
+  <meta name="theme-color" content="#ffb200" />
 
 
 
-    <meta property="og:article:section" content="Technology">
-    <meta property="og:article:tag" content="Unspent Cash">
-    <meta property="og:article:tag" content="Bitcoin Cash">
-    <meta property="og:article:tag" content="Perpetuity">
+  <meta property="og:article:section" content="Technology">
+  <meta property="og:article:tag" content="Unspent Cash">
+  <meta property="og:article:tag" content="Bitcoin Cash">
+  <meta property="og:article:tag" content="Perpetuity">
 
-    <meta property="og:locale" content="en" />
-    <meta property="og:locale:alternate" content="zh_CN" />
-		<meta property="og:locale:alternate" content="es_ES" />
-    <meta property="og:locale:alternate" content="en_US" />
-		<meta property="og:locale:alternate" content="ar_AR" />
-		<meta property="og:locale:alternate" content="hi_IN" />
-		<meta property="og:locale:alternate" content="bn_IN" />
-    <meta property="og:locale:alternate" content="pt_PT" />
-		<meta property="og:locale:alternate" content="ru_RU" />
-		<meta property="og:locale:alternate" content="ja_JP" />
-		<meta property="og:locale:alternate" content="ur_PK" />
-    
-		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.b4ce9cdf.js">
+  <meta property="og:locale" content="en" />
+  <meta property="og:locale:alternate" content="zh_CN" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:locale:alternate" content="ar_AR" />
+  <meta property="og:locale:alternate" content="hi_IN" />
+  <meta property="og:locale:alternate" content="bn_IN" />
+  <meta property="og:locale:alternate" content="pt_PT" />
+  <meta property="og:locale:alternate" content="ru_RU" />
+  <meta property="og:locale:alternate" content="ja_JP" />
+  <meta property="og:locale:alternate" content="ur_PK" />
+
+  
+		<link rel="modulepreload" href="./_app/immutable/entry/start.d62c1b99.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.0a456663.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.c7d9e099.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.4c554497.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.c40a0177.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.c72d6fb7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.f3392c3b.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.a4192956.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.a39ae510.js">
-	</head>
-	<body data-sveltekit-preload-data="hover">
-    
-		<div style="display: contents">
+</head>
+
+<body data-sveltekit-preload-data="hover">
+
+  <div style="display: contents">
 			<script>
 				{
-					__sveltekit_li5ifr = {
+					__sveltekit_156qan1 = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -70,18 +67,20 @@
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.b4ce9cdf.js"),
-						import("./_app/immutable/entry/app.c72d6fb7.js")
+						import("./_app/immutable/entry/start.d62c1b99.js"),
+						import("./_app/immutable/entry/app.f3392c3b.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
 				}
 			</script>
 		</div>
-    <noscript>
-      <h1>Unspent: Your Bitcoin Cash Perpetuity App</h1>
-      <p>Unspent Cash allows users to create a contract that distributes about one percent of the balance monthly in perpetuity.</p>
-    </noscript>
-    
-	</body>
+  <noscript>
+    <h1>Unspent: Your Bitcoin Cash Perpetuity App</h1>
+    <p>Unspent Cash allows users to create a contract that distributes about one percent of the balance monthly in
+      perpetuity.</p>
+  </noscript>
+
+</body>
+
 </html>
